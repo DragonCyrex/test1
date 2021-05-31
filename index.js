@@ -1,4 +1,4 @@
-userName = prompt("What is your name?");
+var userName = prompt("What is your name?");
 if (userName == "Tawfeeq")
 {alert("we Love you Tawfeeq");}
 else if (userName == "Waad"){alert("Waad don't enter the website");}
