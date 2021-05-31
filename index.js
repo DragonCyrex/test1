@@ -1,8 +1,10 @@
-var userName = prompt("What is your name?");
+userName = prompt("What is your name?");
 if (userName == "Tawfeeq")
 {alert("we Love you Tawfeeq");}
 else if (userName == "Waad"){alert("Waad don't enter the website");}
 else {alert("Intruder Alert!");}
 document.write("Hello There! " + userName + " How can i help you?");
 alert("you are awesome " + userName);
-confirm("just wanted to let you know!");
+var x = confirm("just wanted to let you know!");
+if (x == true){alert("Thank you")} 
+else {alert("why man?")}
